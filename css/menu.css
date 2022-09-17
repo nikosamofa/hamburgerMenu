@@ -39,7 +39,6 @@
   height: 2px;
   background: #fff;
   display: flex;
-  flex: none;
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease ;
@@ -50,7 +49,7 @@
 
 .menu-wrap .hamburger> div::before,
 .menu-wrap .hamburger> div::after{
-  content: " ";
+  content: '';
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -96,7 +95,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div> div{
   opacity: 1;
-  transition: opacity 00.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
 
 }
 .menu-wrap .menu{
